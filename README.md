@@ -1,14 +1,14 @@
-# VixenMotionSimulator
-Motion Control Simulator for Vixen Lights
+# Prop MotionSimulator
+Motion Control Simulator for Vixen Lights and similar programs
 
 Demo:  http://www  youtube link
 
-##Goal
+## Goal
 Provide general animatronics and RGB LED control for Vixen Lights
 
 This program emulates the Vixen Streaming ACN E1.31 output module
 
-##Install
+## Install
 Configure VixenLights to output to an E1.31
 Set appropriate number of channels and configure universe
 
@@ -18,7 +18,7 @@ Launch VixenMotion
 Launch Vixen
 
 
-##Simulation
+## Simulation
 The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene us user configurable via DefaultScene.cfg. Also, VixenMotion.exe.config can be modified to point to a different scene config.  The program supports 3d models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
 The Scene config file allows the specification of lights, materials and geometry, and camera placement.
 
@@ -38,7 +38,7 @@ Left/Right Arrow: Rotate Camera
 Delete / Page Down: Strafe Camera
 
 
-##Operation
+## Operation
 PropController runs on the arduino and connects to the PC via a USB serial port. It is responsible for motion planning,
 driving the servo controller and running the NeoPixels.  The PropController code sends a sync byte
 when it is ready for new data. This is needed because both the RGB LED update and I2C servo controller update are interrupt based, and tend to lose serial data if new data comes in while they are busy.
@@ -50,15 +50,15 @@ VixenMotion sends the latest control data to the serial port when it receives th
 
 The system update at around 100hz
 
-#Libraries
+## Libraries
 GL Provided by OpenTK
 
 
-##Demo Show Configuration
+## Demo Show Configuration
 8 Motion Axis, 23 RGB LED Axis (3 Channels Each), 2 DMX Axis
 80 Total Mapped Outputs
 
-###Motion Axis
+### Motion Axis
 1: Eye Pan
 2: Eye Tilt
 3: Eye Blink
@@ -68,7 +68,7 @@ GL Provided by OpenTK
 7: Neck Pan
 8: Neck TIlt
 
-###Light Axis (Each 3 channels)
+### Light Axis (Each 3 channels)
 01 Brain 1
 02 Brain 2
 03 Power Bar 1
@@ -94,11 +94,11 @@ GL Provided by OpenTK
 23 Logo 5
 24 Eyes 
 
-###DMX Axis
+### DMX Axis
 1: Left Flood
 2: Right Flood
 
-##Parts Reference
+## Parts Reference
 Wowwee chimp
 Hitec HS 81 Servos For Eye Pan / Blink
 Hitec HS 322 Servos for Eye Tilt / Mouth / Nose / Brain
@@ -115,8 +115,8 @@ Cable mesh
 M3/M4 Hardware
 3/8 Bearings
 
-##Safety Warning
+## Safety Warning
 Use of this product does not enable you to fly.
 
-##Build Images
+## Build Images
 
