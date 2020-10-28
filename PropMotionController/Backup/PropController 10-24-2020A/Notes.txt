@@ -1,0 +1,3 @@
+Can make axis auto home when vixen times out
+
+Ignore zero from vixen

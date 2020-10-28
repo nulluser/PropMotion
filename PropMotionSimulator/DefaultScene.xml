@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<display>
+	<display_x>1024</display_x>
+	<display_y>786</display_y>
+</display>
+
+<models>
+
+	<model>
+		<name>"Test1"</name>
+		<geometry>g_model1</geometry>
+		<pos_x>1</pos_x>
+		<pos_y>1</pos_y>
+		<pos_z>1</pos_z>
+	</model>
+
+	<model>
+		<name>"Test2"</name>	
+		<geometry>g_model1</geometry>
+		<pos_x>3</pos_x>
+		<pos_y>2</pos_y>
+		<pos_z>3</pos_z>
+	</model>
+
+</models>
+
+</root>

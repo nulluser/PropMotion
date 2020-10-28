@@ -1,0 +1,33 @@
+Vixen Motion Simulator
+2020 Jason Hunt
+
+
+This program emulates the Vixen Streaming ACN E1.31 output module
+
+Install:
+
+Copy vixen profile or use existing if E1.31 configured
+
+launch VixenMotion.exe
+
+Vixen must be disabled for manual motion to work
+
+Crashing on network disconenct
+
+
+
+Scratch:
+
+https://thebookofshaders.com/
+
+//System.Console.WriteLine($"<{item}>");
+
+
+
+Load geometry from file and share
+
+
+10-23-2020: Need to add programable lights
+
+
+
