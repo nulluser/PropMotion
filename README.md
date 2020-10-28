@@ -1,4 +1,4 @@
-# Prop MotionSimulator
+# Prop Motion Simulator
 Motion Control Simulator for Vixen Lights and similar programs
 
 Demo:  http://www  youtube link
