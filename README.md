@@ -28,14 +28,18 @@ The Scene config file allows the specification of lights, materials, geometry, a
 Keys:
 
 - Escape: Exit
-- Manual Axis Test (With Vixen Not Running)
-- Axis 0: Q/A/Z
-- Axis 1: W/S/X
-- And so on
+- Axis 1 Test: Q/A/Z  
+- Axis 1 Test: W/S/X
+- Axis 2 Test: E/D/C
+- Axis 3 Test: R/F/V
+- Axis 4 Test: T/G/B
+- Axis 5 Test: Y/H/N
+- Axis 6 Test: U/J/M
+- Axis 6 Test: I/K/,
 - Space: Random Control data
 - Up/Down Arrow: Move Camera
 - Left/Right Arrow: Rotate Camera
-- Delete / Page Down: Strafe Camera
+- Delete/Page Down: Strafe Camera
 
 
 ## Operation
