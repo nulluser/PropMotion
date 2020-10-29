@@ -21,7 +21,7 @@ This program emulates the Vixen Streaming ACN E1.31 output module
 
 
 ## Simulation
-The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene us user configurable via DefaultScene.cfg. The config file can be modified to point to a different scene config.  The program supports 3d models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
+The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene is user configurable via DefaultScene.cfg. The config file can be modified to point to a different scene config.  The program supports 3d models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
 The Scene config file allows the specification of lights, materials and geometry, and camera placement.
 
 
