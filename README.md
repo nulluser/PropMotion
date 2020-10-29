@@ -68,7 +68,7 @@ GL Provided by OpenTK
 - 05: Brain Pulse
 - 06: Mouth
 - 07: Neck Pan
-- 08: Neck TIlt
+- 08: Neck Tilt
 
 ### Light Axis (Each 3 channels)
 - 01: Brain 1
@@ -115,7 +115,9 @@ GL Provided by OpenTK
 - Hose
 - Cable mesh
 - M3/M4 Hardware
-- 3/8 Bearings
+- 3/8" Bearings
+- 3x6x2.5mm Bearings
+- Ball ends
 
 ## Safety Warning
 Use of this product does not enable you to fly.
