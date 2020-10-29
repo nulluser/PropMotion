@@ -123,5 +123,3 @@ GL Provided by OpenTK
 ## Safety Warning
 Use of this product does not enable you to fly.
 
-## Build Images
-
