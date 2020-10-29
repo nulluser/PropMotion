@@ -1,15 +1,7 @@
 # Prop Motion Simulator
 
 
-
-
-
-
-
-
-
-
-
+ ![Specimen 4](/Image/Build.jpg)
 
 
 
