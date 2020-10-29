@@ -102,23 +102,24 @@ GL Provided by OpenTK
 - 02: Right Flood
 
 ## Parts Reference
-- Wowwee chimp
-- Hitec HS 81 Servos For Eye Pan / Blink
+- 12 Inch Cube Acrylic Box
+- Wowwee Chimp
+- Hitec HS 81 Servos for Eye Pan / Blink
 - Hitec HS 322 Servos for Eye Tilt / Mouth / Nose / Brain
 - Generic DS3218 20kg Servos for Neck Pan / Tilt
-- Arduino Nano
+- Arduino Nano Clone
 - Adafruit PCA9685 Servo Controller
 - Pololu 5V DC-DC Converter S7V7F5
 - WS2812B RGB LEDS
 - 5A 5V power supply
 - Fiber Optic Cable
-- 3D printed parts
+- 3D Printed Parts
 - Hose
-- Cable mesh
+- Cable Mesh
 - M3/M4 Hardware
 - 3/8" Bearings
 - 3x6x2.5mm Bearings
-- Ball ends
+- 2mm Ball Ends
 
 ## Safety Warning
 Use of this product does not enable you to fly.
