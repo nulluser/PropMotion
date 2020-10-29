@@ -58,8 +58,8 @@ The system update at around 100hz.
 GL Provided by OpenTK
 
 ## Demo Show Configuration
-8 Motion Axis, 23 RGB LED Axis (3 Channels Each), 2 DMX Axis
-80 Total Mapped Outputs
+8 Motion Axis, 24 RGB LED Axis (3 Channels Each), 2 DMX Axis
+96 Total Mapped Outputs
 
 ### Motion Axis
 - 01: Eye Pan
