@@ -2,15 +2,17 @@
 
 ![Specimen 4](/Images/Build1.jpg "Build Image")
 
-Motion Control Simulator for Vixen Lights and similar programs
+Motion Control Simulator / Remapper / Motion Control for Vixen Lights and similar programs
 
 - [Demo Video](https://www.youtube.com/watch?v=O-natc-rBuk)
 - [Build Images](https://imgur.com/a/GDeLQwt)
 
 ## Goal
-Provide general animatronics and RGB LED control for Vixen Lights
+Provide general animatronics and RGB LED control.
 
-This program emulates the Vixen Streaming ACN E1.31 output module
+PropMotionSimulator program emulates the Vixen Streaming ACN E1.31 output module, simulates the result, and maps the output to the serial port. 
+
+PropMotionController runs on an Arduino to provide servo and RGB LED control.
 
 ## Install
 - Configure VixenLights to output to an E1.31
