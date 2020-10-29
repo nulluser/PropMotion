@@ -1,67 +1,68 @@
 # Prop Motion Simulator
 
 ![Specimen 4](/Images/Build1.jpg "Build Image")
+![Specimen 4](/Images/System.png "System")
 
-Motion Control Simulator / Remapper / Motion Control for Vixen Lights and similar programs
+Motion Control Simulator for Vixen Lights and similar programs
 
 - [Demo Video](https://www.youtube.com/watch?v=O-natc-rBuk)
 - [Build Images](https://imgur.com/a/GDeLQwt)
 
 ## Goal
-Provide general animatronics and RGB LED control.
+Provide general animatronics and RGB LED control for Vixen Lights
 
-PropMotionSimulator program emulates the Vixen Streaming ACN E1.31 output module, simulates the result, and maps the output to the serial port. 
-
-PropMotionController runs on an Arduino to provide servo and RGB LED control.
+This program emulates an SACN E1.31 output device on localhost
 
 ## Install
-- Configure VixenLights to output to an E1.31
-- Set appropriate number of channels and configure universe
-- Modify PropMotionSimulator.exe.config and DefaultScene.cfg to match the patching
-- Launch PropMotionSimulator
-- Launch Vixen
+Configure VixenLights or similar to output to SACN E1.31
+Set appropriate number of channels and configure universe
 
+Modify PropMotionSimulator.exe.config and DefaultScene.cfg to match the patching
+
+Launch PropMotionSimulator
+Launch Sequencing program
+
+## Building
+Builds using the compiler supplied by .NET framework. You may have to adjust the location in build.bat
 
 ## Simulation
-The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene is user configurable via DefaultScene.cfg. The config file can be modified to point to a different scene config.  The program supports 3D models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
-The Scene config file allows the specification of lights, materials, geometry, and camera placement.
-
+The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene us user configurable via DefaultScene.cfg. The config file can be modified to point to a different scene config.  The program supports 3d models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
+The Scene config file allows the specification of lights, materials and geometry, and camera placement.
 
 Keys:
 
 - Escape: Exit
-- Axis 1 Test: Q/A/Z  
-- Axis 2 Test: W/S/X
-- Axis 3 Test: E/D/C
-- Axis 4 Test: R/F/V
-- Axis 5 Test: T/G/B
-- Axis 6 Test: Y/H/N
-- Axis 7 Test: U/J/M
-- Axis 8 Test: I/K/,
+- Manual Axis Test (With Vixen Not Running)
+- Axis 0: Q/A/Z
+- Axis 1: W/S/X
+- And so on
 - Space: Random Control data
 - Up/Down Arrow: Move Camera
 - Left/Right Arrow: Rotate Camera
-- Delete/Page Down: Strafe Camera
+- Delete / Page Down: Strafe Camera
 
 
 ## Operation
-PropMotionController runs on the arduino and connects to the PC via a USB serial port. It is responsible for motion planning,
-driving the servo controller and running the NeoPixels.  The PropMotionController code sends a sync byte
+PropController runs on the arduino and connects to the PC via a USB serial port. It is responsible for motion planning,driving the servo controller and running the NeoPixels.  The PropController code sends a sync byte
 when it is ready for new data. This is needed because both the RGB LED update and I2C servo controller update are interrupt based, and tend to lose serial data if new data comes in while they are busy.
 
-PropMotionSimulator runs on the PC. It is responsible for redirecting the control data to the PropMotionController as well as 
-emulating a ACN E1.31 device.
+VixenMotion runs on the PC. It is responsible for redirecting the control data to the PropController as well as emulating a ACN E1.31 device.
 
-PropMotionSimulator sends the latest control data to the serial port when it receives the sync byte from PropMotionController.
+VixenMotion sends the latest control data to the serial port when it receives the sync byte from PropController.
 
 The system update at around 100hz.
+
+The motion commands are taken as bytes with '0' ignored for motion channels. This allows the robot to hold position. 
 
 ## Libraries
 GL Provided by OpenTK
 
+## License
+GNU General Public License Version 2
+
 ## Demo Show Configuration
-8 Motion Axis, 24 RGB LED Axis (3 Channels Each), 2 DMX Axis
-96 Total Mapped Outputs
+- 8 Motion Axis, 23 RGB LED Axis (3 Channels Each), 2 DMX Axis
+- 80 Total Mapped Outputs
 
 ### Motion Axis
 - 01: Eye Pan
@@ -104,25 +105,25 @@ GL Provided by OpenTK
 - 02: Right Flood
 
 ## Parts Reference
-- 12 Inch Cube Acrylic Box
-- Wowwee Chimp
-- Hitec HS 81 Servos for Eye Pan / Blink
+- Wowwee chimp
+- Hitec HS 81 Servos For Eye Pan / Blink
 - Hitec HS 322 Servos for Eye Tilt / Mouth / Nose / Brain
 - Generic DS3218 20kg Servos for Neck Pan / Tilt
-- Arduino Nano Clone
+- Arduino Nano
 - Adafruit PCA9685 Servo Controller
 - Pololu 5V DC-DC Converter S7V7F5
 - WS2812B RGB LEDS
 - 5A 5V power supply
 - Fiber Optic Cable
-- 3D Printed Parts
+- 3D printed parts
 - Hose
-- Cable Mesh
+- Cable mesh
 - M3/M4 Hardware
 - 3/8" Bearings
 - 3x6x2.5mm Bearings
-- 2mm Ball Ends
+- Ball ends
 
 ## Safety Warning
 Use of this product does not enable you to fly.
+
 
