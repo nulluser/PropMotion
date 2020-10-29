@@ -29,13 +29,13 @@ Keys:
 
 - Escape: Exit
 - Axis 1 Test: Q/A/Z  
-- Axis 1 Test: W/S/X
-- Axis 2 Test: E/D/C
-- Axis 3 Test: R/F/V
-- Axis 4 Test: T/G/B
-- Axis 5 Test: Y/H/N
-- Axis 6 Test: U/J/M
-- Axis 6 Test: I/K/,
+- Axis 2 Test: W/S/X
+- Axis 3 Test: E/D/C
+- Axis 4 Test: R/F/V
+- Axis 5 Test: T/G/B
+- Axis 6 Test: Y/H/N
+- Axis 7 Test: U/J/M
+- Axis 8 Test: I/K/,
 - Space: Random Control data
 - Up/Down Arrow: Move Camera
 - Left/Right Arrow: Rotate Camera
