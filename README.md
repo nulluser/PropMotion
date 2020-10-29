@@ -1,6 +1,6 @@
 # Prop Motion Simulator
 
-![Specimen 4](https://github.com/nulluser/PropMotion/blob/master/Images/Build1.jpg "Build Image")
+![Specimen 4](/Images/Build1.jpg "Build Image")
 
 Motion Control Simulator for Vixen Lights and similar programs
 
