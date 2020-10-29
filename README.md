@@ -52,11 +52,10 @@ emulating a ACN E1.31 device.
 
 PropMotionSimulator sends the latest control data to the serial port when it receives the sync byte from PropMotionController.
 
-The system update at around 100hz
+The system update at around 100hz.
 
 ## Libraries
 GL Provided by OpenTK
-
 
 ## Demo Show Configuration
 8 Motion Axis, 23 RGB LED Axis (3 Channels Each), 2 DMX Axis
