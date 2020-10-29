@@ -1,7 +1,8 @@
 # Prop Motion Simulator
 Motion Control Simulator for Vixen Lights and similar programs
 
-Demo:  https://www.youtube.com/watch?v=O-natc-rBuk
+[Demo Video](https://www.youtube.com/watch?v=O-natc-rBuk)
+[Build Images](https://imgur.com/a/GDeLQwt)
 
 ## Goal
 Provide general animatronics and RGB LED control for Vixen Lights
