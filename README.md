@@ -16,14 +16,14 @@ This program emulates the Vixen Streaming ACN E1.31 output module
 Configure VixenLights to output to an E1.31
 Set appropriate number of channels and configure universe
 
-Modify VixenMotion.exe.config and DefaultScene.cfg to match the patching
+Modify PropMotionSimulator.exe.config and DefaultScene.cfg to match the patching
 
-Launch VixenMotion
+Launch PropMotionSimulator
 Launch Vixen
 
 
 ## Simulation
-The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene us user configurable via DefaultScene.cfg. Also, VixenMotion.exe.config can be modified to point to a different scene config.  The program supports 3d models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
+The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene us user configurable via DefaultScene.cfg. The config file can be modified to point to a different scene config.  The program supports 3d models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
 The Scene config file allows the specification of lights, materials and geometry, and camera placement.
 
 
