@@ -1,81 +1,81 @@
-2020/10/28 10:58:57.663 AM MSG [Main]       Prop Motion Simulator - 2020 nulluser@gmail.com
-2020/10/28 10:58:57.685 AM MSG [Main]       Version : 10-26-2020
-2020/10/28 10:58:57.686 AM MSG [Network]    Starting
-2020/10/28 10:58:57.689 AM MSG [Serial]     Starting. Port: COM66 Baud: 115200 Start: 0 Length: 80
-2020/10/28 10:58:57.692 AM ERR [Serial]     Unable to open serial port COM66: The port 'COM66' does not exist.
-2020/10/28 10:58:57.695 AM MSG [Network]    Waiting for client
-2020/10/28 10:58:58.250 AM MSG [Render]     Init
-2020/10/28 10:58:58.252 AM MSG [Render]     GL Version: 4.5.13521 Compatibility Profile Context 24.20.11022.5002
-2020/10/28 10:58:58.254 AM MSG [Shader]     Loading Shaders Shaders/Vertex.glsl Shaders/Fragment.glsl
-2020/10/28 10:58:58.289 AM MSG [Sim]        Loading scene data from DefaultScene.cfg
-2020/10/28 10:58:58.293 AM MSG [Sim]        Display_x: 1024
-2020/10/28 10:58:58.299 AM MSG [Sim]        Display_y: 768
-2020/10/28 10:58:58.304 AM MSG [Sim]        V_sync: 1
-2020/10/28 10:58:58.306 AM MSG [Sim]        Loading Camera 0.0
-2020/10/28 10:58:58.310 AM MSG [LightSrc]   Loading Light Source cntr_flood
-2020/10/28 10:58:58.313 AM MSG [LightSrc]   Loading Light Source cntr_eye
-2020/10/28 10:58:58.315 AM MSG [LightSrc]   Loading Light Source left_flood
-2020/10/28 10:58:58.315 AM MSG [LightSrc]   Loading Light Source rght_flood
-2020/10/28 10:58:58.317 AM MSG [Texture]    Loading Texture fire
-2020/10/28 10:58:58.332 AM MSG [Texture]    Loading Texture bone_diff
-2020/10/28 10:58:58.366 AM MSG [Texture]    Loading Texture bone_diff
-2020/10/28 10:58:58.408 AM MSG [Texture]    Loading Texture bone_diff
-2020/10/28 10:58:58.449 AM MSG [Material]   Loading Material m_skull
-2020/10/28 10:58:58.532 AM MSG [Material]   Loading Material m_bone
-2020/10/28 10:58:58.648 AM MSG [Material]   Loading Material m_eye
-2020/10/28 10:58:58.779 AM MSG [Material]   Loading Material m_iris
-2020/10/28 10:58:58.909 AM MSG [Material]   Loading Material m_light
-2020/10/28 10:58:59.029 AM MSG [Material]   Loading Material m_flat
-2020/10/28 10:58:59.164 AM MSG [Geometry]   Loading Geometry: g_skull
-2020/10/28 10:59:00.909 AM MSG [Geometry]   Loading Geometry: g_jaw
-2020/10/28 10:59:02.389 AM MSG [Geometry]   Loading Geometry: g_eyeball
-2020/10/28 10:59:02.453 AM MSG [Geometry]   Loading Geometry: g_iris
-2020/10/28 10:59:02.456 AM MSG [Geometry]   Loading Geometry: g_up_eye_lid
-2020/10/28 10:59:02.545 AM MSG [Geometry]   Loading Geometry: g_lw_eye_lid
-2020/10/28 10:59:02.643 AM MSG [Geometry]   Loading Geometry: g_upper_lip
-2020/10/28 10:59:02.757 AM MSG [Geometry]   Loading Geometry: g_sphere
-2020/10/28 10:59:02.788 AM MSG [Geometry]   Loading Geometry: g_cube
-2020/10/28 10:59:02.792 AM MSG [MotionObj]  Loading Model: bottom
-2020/10/28 10:59:02.795 AM MSG [MotionObj]  Loading Model: back
-2020/10/28 10:59:02.796 AM MSG [MotionObj]  Loading Model: head
-2020/10/28 10:59:02.797 AM MSG [MotionObj]  Loading Model: main_skull
-2020/10/28 10:59:02.799 AM MSG [MotionObj]  Loading Model: jaw
-2020/10/28 10:59:02.800 AM MSG [MotionObj]  Loading Model: left_eye
-2020/10/28 10:59:02.801 AM MSG [MotionObj]  Loading Model: left_iris
-2020/10/28 10:59:02.802 AM MSG [MotionObj]  Loading Model: right_eye
-2020/10/28 10:59:02.802 AM MSG [MotionObj]  Loading Model: right_iris
-2020/10/28 10:59:02.803 AM MSG [MotionObj]  Loading Model: lup_eye_lid
-2020/10/28 10:59:02.804 AM MSG [MotionObj]  Loading Model: rup_eye_lid
-2020/10/28 10:59:02.805 AM MSG [MotionObj]  Loading Model: llw_eye_lid
-2020/10/28 10:59:02.806 AM MSG [MotionObj]  Loading Model: rlw_eye_lid
-2020/10/28 10:59:02.808 AM MSG [MotionObj]  Loading Model: upper_lip
-2020/10/28 10:59:02.809 AM MSG [MotionObj]  Loading Model: pb1
-2020/10/28 10:59:02.810 AM MSG [MotionObj]  Loading Model: pb2
-2020/10/28 10:59:02.811 AM MSG [MotionObj]  Loading Model: pb3
-2020/10/28 10:59:02.812 AM MSG [MotionObj]  Loading Model: pb4
-2020/10/28 10:59:02.813 AM MSG [MotionObj]  Loading Model: pb5
-2020/10/28 10:59:02.814 AM MSG [MotionObj]  Loading Model: pb6
-2020/10/28 10:59:02.815 AM MSG [MotionObj]  Loading Model: pb7
-2020/10/28 10:59:02.815 AM MSG [MotionObj]  Loading Model: re1
-2020/10/28 10:59:02.817 AM MSG [MotionObj]  Loading Model: re2
-2020/10/28 10:59:02.818 AM MSG [MotionObj]  Loading Model: re3
-2020/10/28 10:59:02.819 AM MSG [MotionObj]  Loading Model: px1
-2020/10/28 10:59:02.820 AM MSG [MotionObj]  Loading Model: px2
-2020/10/28 10:59:02.821 AM MSG [MotionObj]  Loading Model: lt1
-2020/10/28 10:59:02.822 AM MSG [MotionObj]  Loading Model: lt2
-2020/10/28 10:59:02.823 AM MSG [MotionObj]  Loading Model: rt1
-2020/10/28 10:59:02.824 AM MSG [MotionObj]  Loading Model: rt2
-2020/10/28 10:59:02.825 AM MSG [MotionObj]  Loading Model: logo1
-2020/10/28 10:59:02.827 AM MSG [MotionObj]  Loading Model: logo2
-2020/10/28 10:59:02.828 AM MSG [MotionObj]  Loading Model: logo3
-2020/10/28 10:59:02.829 AM MSG [MotionObj]  Loading Model: logo4
-2020/10/28 10:59:02.830 AM MSG [MotionObj]  Loading Model: logo5
-2020/10/28 10:59:02.832 AM MSG [Sim]        Resolving Links
-2020/10/28 10:59:02.834 AM MSG [Sim]        Load Complete
-2020/10/28 10:59:02.836 AM MSG [Render]     Resolving Links. Objects: 35
-2020/10/28 10:59:03.217 AM MSG [Sim]        Done 
-2020/10/28 11:02:15.358 AM MSG [Network]    Stopping
-2020/10/28 11:02:15.713 AM MSG [Network]    Stopped
-2020/10/28 11:02:15.715 AM MSG [Serial]     Stopping
-2020/10/28 11:02:15.716 AM MSG [Serial]     Stopped
-2020/10/28 11:02:15.716 AM MSG [Main]       Main Exit
+2020/10/28 08:20:57.257 PM MSG [Main]       Prop Motion Simulator - 2020 nulluser@gmail.com
+2020/10/28 08:20:57.287 PM MSG [Main]       Version : 10-26-2020
+2020/10/28 08:20:57.297 PM MSG [Network]    Starting
+2020/10/28 08:20:57.297 PM MSG [Serial]     Starting. Port: COM66 Baud: 115200 Start: 0 Length: 80
+2020/10/28 08:20:57.307 PM ERR [Serial]     Unable to open serial port COM66: The port 'COM66' does not exist.
+2020/10/28 08:20:57.307 PM MSG [Network]    Waiting for client
+2020/10/28 08:20:58.417 PM MSG [Render]     Init
+2020/10/28 08:20:58.417 PM MSG [Render]     GL Version: 4.5.0 NVIDIA 384.76
+2020/10/28 08:20:58.427 PM MSG [Shader]     Loading Shaders Shaders/Vertex.glsl Shaders/Fragment.glsl
+2020/10/28 08:20:58.617 PM MSG [Sim]        Loading scene data from DefaultScene.cfg
+2020/10/28 08:20:58.627 PM MSG [Sim]        Display_x: 1024
+2020/10/28 08:20:58.627 PM MSG [Sim]        Display_y: 768
+2020/10/28 08:20:58.627 PM MSG [Sim]        V_sync: 1
+2020/10/28 08:20:58.637 PM MSG [Sim]        Loading Camera 0.0
+2020/10/28 08:20:58.637 PM MSG [LightSrc]   Loading Light Source cntr_flood
+2020/10/28 08:20:58.637 PM MSG [LightSrc]   Loading Light Source cntr_eye
+2020/10/28 08:20:58.637 PM MSG [LightSrc]   Loading Light Source left_flood
+2020/10/28 08:20:58.637 PM MSG [LightSrc]   Loading Light Source rght_flood
+2020/10/28 08:20:58.637 PM MSG [Texture]    Loading Texture fire
+2020/10/28 08:20:58.677 PM MSG [Texture]    Loading Texture bone_diff
+2020/10/28 08:20:58.747 PM MSG [Texture]    Loading Texture bone_diff
+2020/10/28 08:20:58.847 PM MSG [Texture]    Loading Texture bone_diff
+2020/10/28 08:20:58.917 PM MSG [Material]   Loading Material m_skull
+2020/10/28 08:20:59.077 PM MSG [Material]   Loading Material m_bone
+2020/10/28 08:20:59.257 PM MSG [Material]   Loading Material m_eye
+2020/10/28 08:20:59.507 PM MSG [Material]   Loading Material m_iris
+2020/10/28 08:20:59.697 PM MSG [Material]   Loading Material m_light
+2020/10/28 08:20:59.897 PM MSG [Material]   Loading Material m_flat
+2020/10/28 08:21:00.127 PM MSG [Geometry]   Loading Geometry: g_skull
+2020/10/28 08:21:01.927 PM MSG [Geometry]   Loading Geometry: g_jaw
+2020/10/28 08:21:03.427 PM MSG [Geometry]   Loading Geometry: g_eyeball
+2020/10/28 08:21:03.537 PM MSG [Geometry]   Loading Geometry: g_iris
+2020/10/28 08:21:03.547 PM MSG [Geometry]   Loading Geometry: g_up_eye_lid
+2020/10/28 08:21:03.637 PM MSG [Geometry]   Loading Geometry: g_lw_eye_lid
+2020/10/28 08:21:03.727 PM MSG [Geometry]   Loading Geometry: g_upper_lip
+2020/10/28 08:21:03.827 PM MSG [Geometry]   Loading Geometry: g_sphere
+2020/10/28 08:21:03.857 PM MSG [Geometry]   Loading Geometry: g_cube
+2020/10/28 08:21:03.857 PM MSG [MotionObj]  Loading Model: bottom
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: back
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: head
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: main_skull
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: jaw
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: left_eye
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: left_iris
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: right_eye
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: right_iris
+2020/10/28 08:21:03.867 PM MSG [MotionObj]  Loading Model: lup_eye_lid
+2020/10/28 08:21:03.877 PM MSG [MotionObj]  Loading Model: rup_eye_lid
+2020/10/28 08:21:03.877 PM MSG [MotionObj]  Loading Model: llw_eye_lid
+2020/10/28 08:21:03.877 PM MSG [MotionObj]  Loading Model: rlw_eye_lid
+2020/10/28 08:21:03.877 PM MSG [MotionObj]  Loading Model: upper_lip
+2020/10/28 08:21:03.877 PM MSG [MotionObj]  Loading Model: pb1
+2020/10/28 08:21:03.877 PM MSG [MotionObj]  Loading Model: pb2
+2020/10/28 08:21:03.887 PM MSG [MotionObj]  Loading Model: pb3
+2020/10/28 08:21:03.887 PM MSG [MotionObj]  Loading Model: pb4
+2020/10/28 08:21:03.887 PM MSG [MotionObj]  Loading Model: pb5
+2020/10/28 08:21:03.887 PM MSG [MotionObj]  Loading Model: pb6
+2020/10/28 08:21:03.887 PM MSG [MotionObj]  Loading Model: pb7
+2020/10/28 08:21:03.887 PM MSG [MotionObj]  Loading Model: re1
+2020/10/28 08:21:03.897 PM MSG [MotionObj]  Loading Model: re2
+2020/10/28 08:21:03.897 PM MSG [MotionObj]  Loading Model: re3
+2020/10/28 08:21:03.897 PM MSG [MotionObj]  Loading Model: px1
+2020/10/28 08:21:03.897 PM MSG [MotionObj]  Loading Model: px2
+2020/10/28 08:21:03.897 PM MSG [MotionObj]  Loading Model: lt1
+2020/10/28 08:21:03.897 PM MSG [MotionObj]  Loading Model: lt2
+2020/10/28 08:21:03.907 PM MSG [MotionObj]  Loading Model: rt1
+2020/10/28 08:21:03.907 PM MSG [MotionObj]  Loading Model: rt2
+2020/10/28 08:21:03.907 PM MSG [MotionObj]  Loading Model: logo1
+2020/10/28 08:21:03.907 PM MSG [MotionObj]  Loading Model: logo2
+2020/10/28 08:21:03.907 PM MSG [MotionObj]  Loading Model: logo3
+2020/10/28 08:21:03.907 PM MSG [MotionObj]  Loading Model: logo4
+2020/10/28 08:21:03.907 PM MSG [MotionObj]  Loading Model: logo5
+2020/10/28 08:21:03.907 PM MSG [Sim]        Resolving Links
+2020/10/28 08:21:03.907 PM MSG [Sim]        Load Complete
+2020/10/28 08:21:03.917 PM MSG [Render]     Resolving Links. Objects: 35
+2020/10/28 08:21:04.487 PM MSG [Sim]        Done 
+2020/10/28 08:21:17.797 PM MSG [Network]    Stopping
+2020/10/28 08:21:19.807 PM MSG [Network]    Stopped
+2020/10/28 08:21:19.807 PM MSG [Serial]     Stopping
+2020/10/28 08:21:19.807 PM MSG [Serial]     Stopped
+2020/10/28 08:21:19.807 PM MSG [Main]       Main Exit

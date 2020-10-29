@@ -13,13 +13,11 @@ Provide general animatronics and RGB LED control for Vixen Lights
 This program emulates the Vixen Streaming ACN E1.31 output module
 
 ## Install
-Configure VixenLights to output to an E1.31
-Set appropriate number of channels and configure universe
-
-Modify PropMotionSimulator.exe.config and DefaultScene.cfg to match the patching
-
-Launch PropMotionSimulator
-Launch Vixen
+- Configure VixenLights to output to an E1.31
+- Set appropriate number of channels and configure universe
+- Modify PropMotionSimulator.exe.config and DefaultScene.cfg to match the patching
+- Launch PropMotionSimulator
+- Launch Vixen
 
 
 ## Simulation
