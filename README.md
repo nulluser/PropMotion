@@ -43,14 +43,14 @@ Keys:
 
 
 ## Operation
-PropController runs on the arduino and connects to the PC via a USB serial port. It is responsible for motion planning,
-driving the servo controller and running the NeoPixels.  The PropController code sends a sync byte
+PropMotionController runs on the arduino and connects to the PC via a USB serial port. It is responsible for motion planning,
+driving the servo controller and running the NeoPixels.  The PropMotionController code sends a sync byte
 when it is ready for new data. This is needed because both the RGB LED update and I2C servo controller update are interrupt based, and tend to lose serial data if new data comes in while they are busy.
 
-PropMotionSimulator runs on the PC. It is responsible for redirecting the control data to the PropController as well as 
+PropMotionSimulator runs on the PC. It is responsible for redirecting the control data to the PropMotionController as well as 
 emulating a ACN E1.31 device.
 
-PropMotionSimulator sends the latest control data to the serial port when it receives the sync byte from PropController.
+PropMotionSimulator sends the latest control data to the serial port when it receives the sync byte from PropMotionController.
 
 The system update at around 100hz
 
