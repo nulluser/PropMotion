@@ -23,7 +23,7 @@ Launch PropMotionSimulator
 Launch Sequencing program
 
 ## Building
-Builds using the compiler supplied by .NET framework. You may have to adjust the location in build.bat
+Builds using the compiler supplied by .NET framework. You may have to adjust the location in build.bat. Rebuilding is only required if you modify the source code.
 
 ## Simulation
 The program provides a 3D simulation of the robot and lights to aid in sequencing. The 3D scene us user configurable via DefaultScene.cfg. The config file can be modified to point to a different scene config.  The program supports 3d models in STL format. Default models are stored in Models.  Textures are stored in Textures. 
