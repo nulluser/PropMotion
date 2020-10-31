@@ -109,11 +109,11 @@ GNU General Public License Version 2
 - Hitec HS 81 Servos For Eye Pan / Blink
 - Hitec HS 322 Servos for Eye Tilt / Mouth / Nose / Brain
 - Generic DS3218 20kg Servos for Neck Pan / Tilt
-- Arduino Nano
+- Arduino Nano Clone
 - Adafruit PCA9685 Servo Controller
 - Pololu 5V DC-DC Converter S7V7F5
 - WS2812B RGB LEDS
-- 5A 5V power supply
+- 5A 5V Power supply
 - Fiber Optic Cable
 - 3D printed parts
 - Hose
